@@ -20,7 +20,6 @@ class SendingPromise {
   SendingPromise& setRange(uint16_t rangeIndex);
   uint16_t send(const String& value);
 
- private:
   SendingPromise& setNode(const HomieNode& node);
   SendingPromise& setProperty(const String& property);
   const HomieNode* getNode() const;
@@ -29,7 +28,8 @@ class SendingPromise {
   HomieRange getRange() const;
   bool isRetained() const;
   bool doesOverwriteSetter() const;
-
+  
+ private:
   const HomieNode* _node;
   const String* _property;
   uint8_t _qos;
