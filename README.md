@@ -1,3 +1,6 @@
+git remote add upstream https://github.com/marvinroger/homie-esp8266.git
+git fetch upstream
+
 ![homie-esp8266 banner](banner.png)
 
 Homie for ESP8266
