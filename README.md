@@ -1,5 +1,5 @@
-git remote add upstream https://github.com/marvinroger/homie-esp8266.git
-git fetch upstream
+- git remote add upstream https://github.com/marvinroger/homie-esp8266.git
+- git fetch upstream
 
 ![homie-esp8266 banner](banner.png)
 
